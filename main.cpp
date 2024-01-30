@@ -4,9 +4,9 @@ using namespace std;
 
 int main()
 {
-    int a {};
-    int b {};
-    int c {};
+    double a {};
+    double b {};
+    double c {};
     double d {};
     double root1 {};
     double root2 {};
@@ -32,22 +32,6 @@ int main()
 
     cout << "Discriminant value is: " << d << "\n";
 
-   /* if (d < 0)
-        cout << "Roots are imaginary";
-    else if (d == 0)
-        {
-            cout << "Roots are real and equal\n";
-            cout << "Root of the eqation is: " << root1;
-        }
-    else (d > 0)
-        {
-            cout << "Roots are real and distinct\n";
-            cout << "First root is: " << root1 << "\n";
-            cout << "Second root is: " << root2;
-        }
-    */    
-   
-
     if (d < 0)
         cout << "Roots are imaginary";
     else if (d == 0)
@@ -58,10 +42,9 @@ int main()
     else if (d > 0)
     {
         cout << "Roots are real and distinct\n";
-        cout << "First root is: " << root1 << "\n";
-        cout << "Second root is: " << root2;
+        cout << "First root of the equation is: " << root1 << "\n";
+        cout << "Second root of the equation is: " << root2;
     }
-    
     
     return 0;
 
